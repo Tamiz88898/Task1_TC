@@ -1,0 +1,122 @@
+.main_1{
+  height:100%;
+  width: 900px;
+}
+.main_2{
+  height:100%;
+  width: 900px;
+}
+.section_1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.section_2{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.section_1 img {
+    height: 300px;
+    width: 400px;
+}
+.section_2 button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid var(--brand__color);
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: 'opensans__bold';
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg__color);
+  background-image: url(./bg4.webp);
+  background-size: cover;
+  background-blend-mode: overlay;
+  font-family: 'opensans__regular';
+}
+::root{
+  --bg__color: #0c275a;
+  --text__color: #ffffff4e;
+  --brand__color: #0011ff80;
+}
+.location{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.location img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.location h1{
+    padding-left: 70px;
+}
+.location_Phn_email{
+    display: flex;
+    justify-content:space-between;
+}
+.phone{
+
+  padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.phone img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.phone h1{
+    padding-left: 80px;
+}
+.phone h3{
+
+        padding-left: 70px;
+}
+
+.Email{
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.Email img{
+
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.Email h1{
+
+    padding-left: 80px;
+}
+.Email h3{
+    padding-left: 70px;
+}
+.section_2 button{
+    border-radius: 40px;
+    box-shadow: #0c275a;
+}
